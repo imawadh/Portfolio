@@ -1,6 +1,6 @@
 body
 {
-    background-color: #ffffff;
+    background-color: #e8e8e8;
 }
 .Portfolio_Image{
     height: 230px;
@@ -16,6 +16,18 @@ body
 }
 .Navigation_Bar{
     list-style-type: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+.li:first-child{
+    margin-right: auto;
+}
+.li:right{
+    margin-left: auto;
 }
 
 .link_font_color
@@ -23,4 +35,7 @@ body
     font-family: 'Times New Roman', Times, serif;
     color: #000000;
     
+}
+*{
+    margin:7px;
 }
