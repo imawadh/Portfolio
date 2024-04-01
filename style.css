@@ -3,7 +3,8 @@
     margin: 0;
 }
 body{
-    background-color: #ffe8e8;
+    background-color: #000000;
+    color: #f2ffd9;
 }
 
 
@@ -11,7 +12,7 @@ header{
     background-color: #000000;
     padding: 0 10% 0 10%;
     height: 60px;  
-    margin-bottom: 25px;
+    
     
     
 }
@@ -20,6 +21,7 @@ header{
     display: flex;
     justify-content: space-around;
     color: aliceblue;
+    
 }
 
 .nav_items{
@@ -55,6 +57,7 @@ header{
 
 /* Main Section */
 main{
+    margin-top: 25px;
     padding: 0 5% 0 5%;
 }
 #about{
@@ -77,8 +80,9 @@ main{
     
 }
 .python_projects{
-    background-color: #ffd87c;
+    background-color: #000000;
     padding-bottom: 20px;
+    color: aliceblue;
     border-radius: 8px;
 }
 main .heading{
@@ -104,7 +108,7 @@ main .heading{
     min-width: 200px;
     min-height: 200px;
     margin: 10px;
-    border: 2px solid black;
+    border: 2px solid rgb(255, 0, 0);
     border-radius: 5px;
     
 }
@@ -113,7 +117,7 @@ main .heading{
     justify-content: space-between;
     flex-direction: column;
     align-items: center;
-    color: #091600;
+    color: #ffffff;
     text-decoration: none;
 
 
@@ -123,7 +127,7 @@ main .heading{
     padding-left: 65px;
     padding-bottom: 20px;
     font-size: larger;
-    color: #091600;
+    color: #ffffff;
 
 }
 
@@ -140,7 +144,7 @@ main .heading{
 .DataScience_project_images a img{
     max-width: 200px;
     margin: 10px;
-    border: 2px solid black;
+    border: 2px solid rgb(255, 0, 0);
     border-radius: 5px;
     
 }
@@ -149,7 +153,7 @@ main .heading{
     justify-content: space-between;
     flex-direction: column;
     align-items: center;
-    color: #091600;
+    color: #ffffff;
     text-decoration: none;
 
 }
@@ -158,13 +162,13 @@ main .heading{
     padding-left: 65px;
     padding-bottom: 20px;
     font-size: larger;
-    color: #091600;
+    color: #ffffff;
 
 }
 .DataScience_projects{
     margin-top: 20px;
     border-radius: 8px;
-    background-color: #c1f8ff;
+    background-color: #000000;
     padding-bottom: 20px;
 }
 
@@ -182,7 +186,7 @@ main .heading{
 .WebDevelopment_project_images a img{
     max-width: 200px;
     margin: 10px;
-    border: 2px solid black;
+    border: 2px solid rgb(255, 0, 0);
     border-radius: 5px;
     
 }
@@ -191,7 +195,7 @@ main .heading{
     justify-content: space-between;
     flex-direction: column;
     align-items: center;
-    color: #091600;
+    color: #ffffff;
     text-decoration: none;
 
 }
@@ -200,13 +204,13 @@ main .heading{
     padding-left: 65px;
     padding-bottom: 20px;
     font-size: larger;
-    color: #091600;
+    color: #ffffff;
 
 }
 .WebDevelopment_projects{
     margin-top: 20px;
     border-radius: 8px;
-    background-color: #94a4ff;
+    background-color: #000000;
     padding-bottom: 20px;
 }
 
@@ -216,7 +220,7 @@ main .heading{
     margin-bottom: 45px;
 }
 .name_of_technical_skills{
-    background-color: #96ffc4;
+    background-color: #000000;
     
     padding: 4% 10% 4% 2%;    
 }
@@ -236,13 +240,13 @@ main .heading{
     align-items: center;
     padding-bottom: 15px;
     text-decoration: none;
-    color: #091600;
+    color: #ffffff;
 }
 .name_of_technical_skills a img{
     height: 200px;
     margin-bottom: 10px;
     border-radius: 8px;
-    border: 2px solid black;
+    border: 2px solid rgb(255, 0, 0);
     
     
 }
@@ -254,7 +258,7 @@ main .heading{
     margin-top: 25px;
 }
 .sub_heading{
-    background-color: #96ffc4;
+    background-color: #000000;
     border-radius: 8px 8px 0 0;
 }
 .sub_heading h3{
@@ -266,7 +270,7 @@ main .heading{
 /* Soft Skills CSS*/
 
 .name_of_soft_skills{
-    background-color: #f1a0ff;
+    background-color: #000000;
     border-radius: 0px 0px 8px 8px;
     padding: 4% 10% 4% 4%;    
 }
@@ -292,14 +296,14 @@ main .heading{
     height: 200px;
     margin-bottom: 10px;
     border-radius: 8px;
-    border: 2px solid black;
+    border: 2px solid rgb(255, 0, 0);
     
     
 }
 
 
 .soft_skills_sub_heading{
-    background-color: #f1a0ff;
+    background-color: #000000;
     
 }
 .soft_skills_sub_heading h3{
@@ -314,4 +318,25 @@ main .heading{
     justify-content: center;
     padding-top: 30px;
     text-decoration: underline;
+    margin-bottom: 20px;
+}
+.fa-brands {
+    
+    font-size: 80px;
+    color: #ffffff;
+    justify-content: space-between;
+}
+.icons_connect{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+.icon a{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: #e2fad1;
+    
+    
 }
