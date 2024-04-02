@@ -6,15 +6,18 @@ body{
     background-color: #000000;
     color: #f2ffd9;
 }
-
+hr{
+    border-top: 1px solid ;
+    border-bottom: 1px solid ;
+    border-color: #2e9d9d;
+    opacity: 0.5;
+    
+}
 
 header{
     background-color: #000000;
     padding: 0 10% 0 10%;
-    height: 60px;  
-    
-    
-    
+    height: 60px;    
 }
 
 .navigation_bar{
@@ -70,7 +73,8 @@ main{
 #about img{
     max-width: 300px;
     border-radius: 50%;
-    border: 1.5px solid red;
+    border: 3px solid red;
+    
     margin-right: 10%;
 }
 
@@ -359,4 +363,11 @@ main .heading{
     color: #e2fad1;
     
     
+}
+
+.text_footer{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
 }
