@@ -65,6 +65,7 @@ main{
     align-items: center;
     justify-content: space-between;
     margin-bottom: 25px;
+    
 }
 #about img{
     max-width: 300px;
@@ -140,12 +141,17 @@ main .heading{
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
+    
 }
 .DataScience_project_images a img{
     max-width: 200px;
     margin: 10px;
     border: 2px solid rgb(255, 0, 0);
     border-radius: 5px;
+    max-width: 200px;
+    min-width: 200px;
+    min-height: 200px;
+    max-height: 200px;
     
 }
 .DataScience_project_images a{
@@ -188,6 +194,10 @@ main .heading{
     margin: 10px;
     border: 2px solid rgb(255, 0, 0);
     border-radius: 5px;
+    max-width: 200px;
+    min-width: 200px;
+    min-height: 200px;
+    max-height: 200px;
     
 }
 .WebDevelopment_project_images a{
@@ -247,7 +257,10 @@ main .heading{
     margin-bottom: 10px;
     border-radius: 8px;
     border: 2px solid rgb(255, 0, 0);
-    
+    max-width: 200px;
+    min-width: 200px;
+    min-height: 200px;
+    max-height: 200px;
     
 }
 .main_skills_heading {
@@ -290,13 +303,17 @@ main .heading{
     align-items: center;
     padding-bottom: 15px;
     text-decoration: none;
-    color: #091600;
+    color: #ffffff;
 }
 .name_of_soft_skills a img{
     height: 200px;
     margin-bottom: 10px;
     border-radius: 8px;
     border: 2px solid rgb(255, 0, 0);
+    max-width: 200px;
+    min-width: 200px;
+    min-height: 200px;
+    max-height: 200px;
     
     
 }
@@ -313,6 +330,9 @@ main .heading{
 }
 
 /* Connect Section CSS*/
+#connect{
+    margin-bottom: 20px;
+}
 .main_connect_heading{
     display: flex;
     justify-content: center;
