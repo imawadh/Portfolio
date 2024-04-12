@@ -73,7 +73,7 @@ main{
 #about img{
     max-width: 300px;
     border-radius: 50%;
-    border: 3px solid red;
+    border: 3px solid #ffffff;
     
     margin-right: 10%;
 }
@@ -113,7 +113,7 @@ main .heading{
     min-width: 200px;
     min-height: 200px;
     margin: 10px;
-    border: 2px solid rgb(255, 0, 0);
+    border: 2px solid#ffffff;
     border-radius: 5px;
     
 }
@@ -150,7 +150,7 @@ main .heading{
 .DataScience_project_images a img{
     max-width: 200px;
     margin: 10px;
-    border: 2px solid rgb(255, 0, 0);
+    border: 2px solid#ffffff;
     border-radius: 5px;
     max-width: 200px;
     min-width: 200px;
@@ -196,7 +196,7 @@ main .heading{
 .WebDevelopment_project_images a img{
     max-width: 200px;
     margin: 10px;
-    border: 2px solid rgb(255, 0, 0);
+    border: 2px solid#ffffff;
     border-radius: 5px;
     max-width: 200px;
     min-width: 200px;
@@ -260,7 +260,7 @@ main .heading{
     height: 200px;
     margin-bottom: 10px;
     border-radius: 8px;
-    border: 2px solid rgb(255, 0, 0);
+    border: 2px solid#ffffff;
     max-width: 200px;
     min-width: 200px;
     min-height: 200px;
@@ -313,7 +313,7 @@ main .heading{
     height: 200px;
     margin-bottom: 10px;
     border-radius: 8px;
-    border: 2px solid rgb(255, 0, 0);
+    border: 2px solid#ffffff;
     max-width: 200px;
     min-width: 200px;
     min-height: 200px;
