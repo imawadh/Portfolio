@@ -371,3 +371,8 @@ main .heading{
     display: flex;
     justify-content: center;
 }
+
+
+.about_me h2{
+    font-size: 40px;
+}
