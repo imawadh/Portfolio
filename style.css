@@ -40,11 +40,18 @@ header{
     
 
 }
+
+
 .nav_items a{
     text-decoration: none;
     color: aliceblue;
     font-weight: 700;
     
+    
+}
+.nav_items a:hover{
+    text-decoration: underline;
+    color: aqua;
     
 }
 .mysignature{
@@ -56,12 +63,8 @@ header{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     
 }
-.nav_items a:hover{
-    color: #00ffff;
-    
-    text-decoration: underline;
 
-}
+
 
 
 
