@@ -44,7 +44,7 @@ header{
 
 .nav_items a{
     text-decoration: none;
-    color: aliceblue;
+    color: #ffffff;
     font-weight: 700;
     
     
@@ -98,7 +98,7 @@ main{
 .python_projects{
     background-color: #000000;
     padding-bottom: 20px;
-    color: aliceblue;
+    color: #ffffff;
     border-radius: 8px;
 }
 main .heading{
