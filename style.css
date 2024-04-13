@@ -12,6 +12,7 @@ hr{
     border-color: #2e9d9d;
     opacity: 0.5;
     
+    
 }
 
 header{
@@ -41,6 +42,7 @@ header{
     color: aliceblue;
     font-weight: 700;
     
+    
 }
 .mysignature{
     /* float: left; */
@@ -52,6 +54,8 @@ header{
 }
 .nav_items a:hover{
     color: #00ffff;
+    
+    text-decoration: underline;
 
 }
 
