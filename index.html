@@ -4,130 +4,181 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Awadh Kishor Singh</title>
-    <link rel="shortcut-icon" href="Images/myphoto.png" type="image/x-icon">
-    
-    <script src="https://kit.fontawesome.com/7642f87fa7.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .CodeSection{
+            background-color: black;
+        }
+        .CodeSection ul li{
+           text-align: center;
+           padding-bottom: 25px ;
+        }
+        @media screen and (orientation:landscape){
+            header{
+                justify-content: space-around;
+                padding-left: 10vw;
+                padding-right: 10vw;
+            }
+            #ResponsiveHeader{
+                display: none;
+            }
+            #Connect ul{
+                display: flex;
+                padding: 10px;
+                justify-content: space-around;
+            }
+            #Connect ul li{
+                text-align: center;
+            }
+            .HomeSection{
+                display: grid;
+                grid-template-columns: 7fr 5fr;
+                justify-content: center;
+                padding: 0 10vw 0 10vw;
+                gap: 50px;
+            }
+            #myphoto{
+                width: 30vw;
+                height: auto;
+            }
+            .CodeSection ul {
+                display: flex;
+                justify-content: space-around;
+            }
+            
+        }
+        @media screen and (orientation:portrait){
+            header{
+                justify-content: space-between;
+            }
+
+            nav{
+                display: none;
+            }
+
+            #Connect ul{
+                display: grid;
+                grid-template-columns: 6fr 6fr;
+                text-align: center;
+                flex-wrap: wrap;
+            }
+
+            #Connect ul li{
+                padding: 5px;
+                margin-bottom: 20px;
+            }
+
+            .HomeSection{
+                display: block;
+                padding: 0 10vw 0 10vw;
+                text-align: center;
+            }
+
+            #myphoto{
+                width: 70vw;
+                height: auto;
+                margin-top: 25px;
+            }
+            .CodeSection ul{
+                display: grid;
+                grid-template-columns: 6fr 6fr;
+            }
+        }
+    </style>
 </head>
 <body>
-    <header>
-        <nav class="navigation_bar">
-            <div class="mysignature"><strong> Awadh </strong></div>
-                <div class="nav_items">
-                <a href="#about">About</a>
-                <a href="#project">Projects</a>
-                <a href="#skills">Skills</a>
-                <a href="#connect">Connect</a> 
-            </div>
+    <header class="bg-black d-flex p-2">
+
+        <div class="text-light">
+            <span id="signature">Awadh Kishor Singh</span>
+        </div>
+
+        <nav>
+            
+            <ul class="list-unstyled d-flex">
+                <li> <a href="javascript:void()" class="text-decoration-none m-2 text-white">Home</a> </li>
+                <li> <a href="javascript:void()" class="text-decoration-none m-2 text-white">About</a> </li>
+                <li> <a href="javascript:void()" class="text-decoration-none m-2 text-white">Project</a> </li>
+                <li> <a href="javascript:void()" class="text-decoration-none m-2 text-white">Let's Code</a> </li>
+                <li> <a href="javascript:void()" class="text-decoration-none m-2 text-white">Blog</a> </li>
+                <li> <a href="javascript:void()" class="text-decoration-none m-2 text-white">Connect</a> </li>
+            </ul>
         </nav>
+
+        <div id="ResponsiveHeader">
+            <a href="javascript:void()" class="text-white text-decoration-none">
+                <span class="bi bi-justify"></span>
+            </a>
+        </div>
     </header>
-    <hr color="red">
+
     <main>
-        <section id = "about">
-            <img src="Images/myphoto.png" alt="Awadh's Photo">
-            <div class="about_me">
-            <h2>Awadh Kishor Singh</h2>
-            <br>
-            <h3 class = "subheading">Aspiring Engineer || Student at  IIT Madras || EX - C.H.S [B.H.U] Student</h3>
-            <br>
-            A first-year engineering student passionate about innovation and problem-solving. With a keen interest in hands-on projects and a drive for learning, I'm excited to explore diverse disciplines within the field and make a positive impact through my work. Let's connect and embark on this exciting journey together!
-        </div>
-        </section>
-        <hr>
-        <h2 class="heading">Projects</h2>
-        
-        <section id="project">
-            <div class="python_projects">
-                <h3 class = "subheading">
-                    Python 
-                </h3>
-                <div class="python_project_images">
-                    <a href="https://github.com/imawadh/PROJECTS/blob/main/Python/Secure_authentication_system.py"><img src="Images/secure_authentication.jpg" alt="Project 1">Seccure Authentication</a>
-                    <a href="https://github.com/imawadh/PROJECTS/blob/main/Python/library_management_system.py"><img src="Images/library.jpg" alt="Project 2">Library Management </a>
-                    <a href="https://github.com/imawadh/PROJECTS/blob/main/Python/PROJECT%20PYTHON%20---%201.ipynb"><img src="Images/travel.jpg" alt="Project 3">EDA on Travel Data</a>    
-                </div>
-            </div>
-            <hr>
-            <div class="DataScience_projects">
-                <h3 class = "subheading">
-                    Data Science
-                </h3>
-                <div class="DataScience_project_images">
-                    <a href="https://github.com/imawadh/PROJECTS/blob/main/Data%20Science/student_registration.py"><img src="Images/register.jpg" alt="">Student Registration Form </a>
-                    <a href="https://github.com/imawadh/PROJECTS/blob/main/Data%20Science/olympics.sql"><img src="Images/olympics.png" alt="">Olympics SQL Query</a>
-                    <!-- <a href="#"><img src="Images/myphoto.png" alt="">Project 3</a>     -->
-                </div>
-            </div>
-            <hr>
-            <div class="WebDevelopment_projects">
-                <h3 class = "subheading">
-                    Web Development
-                </h3>
-                <div class="WebDevelopment_project_images">
-                    <a href="https://github.com/imawadh/PROJECTS/tree/main/WEB%20DEVELOPMENT/Myntra%20Clone"><img src="Images/myntra.png" alt="">Myntra Clone</a>
-                    <!-- <a href="#"><img src="Images/myphoto.png" alt="">Project 2</a>
-                    <a href="#"><img src="Images/myphoto.png" alt="">Project 3</a>     -->
-                </div>
-            </div>
-        </section>
-        <hr>
 
-        <section id="skills">
-        <div class="main_skills_heading">
-            <h2>Skills</h2>
-        </div>
-        <div class="sub_heading">
-        <h3 class = "subheading">Technical Skills</h3>
-        </div>
-            <div class="name_of_technical_skills">
-                
-                <!-- <a href="#"><img src="Images/c.jpg" alt="C++">C</a> -->
-                <a href="#"><img src="Images/c++.png" alt="C++">C++</a>
-                <a href="#"><img src="Images/python.png" alt="C++">Python</a>
-                <a href="#"><img src="Images/html.png" alt="C++">HTML</a>
-                <a href="#"><img src="Images/css.png" alt="C++">CSS</a>
-                <a href="#"><img src="Images/sql.png" alt="SQL">SQL</a>
+
+        <!-- Home Section -->
+
+
+        <section class="mt-4 HomeSection align-items-center mb-3" id="Home">
+            <div class="aboutme">
+                <h1 class="bold ">Awadh Kishor Singh</h1>
+                <h3>Student at IIT Madras || CHS - 2023 ||<br> Aspiring Engineer || Web Development || <br>Data Science || Competitive Programmer</h3>
+                <article>I'm exploring the cool world of tech🌐, turning innovative ideas into reality through programming👨‍💻. Right now, I'm diving deep into the basics, honing my skills, and enjoying every moment of this coding adventure. 🌟🚀 Whether it's solving problems, building projects, or simply experimenting with new concepts, I'm always eager to learn and grow in this dynamic field. As I continue to develop my coding abilities, I'm excited to see where this journey will take me and how I can contribute to the tech community.</article>
             </div>
-            <hr>
-        <div class="soft_skills_sub_heading">
-        <h3 class = "subheading">Soft Skills</h3>
-        </div>
-        <div class="name_of_soft_skills">
-                
-            <a href="#"><img src="Images/myphoto.png" alt="C++">Public Speaking</a>
-            <a href="#"><img src="Images/myphoto.png" alt="C++">C++</a>
-            <!-- <a href="#"><img src="Images/myphoto.png" alt="C++">Python</a>
-            <a href="#"><img src="Images/myphoto.png" alt="C++">HTML</a>
-            <a href="#"><img src="Images/myphoto.png" alt="C++">CSS</a> -->
-        </div>
+            <div>
+                <figure>
+                    <img src="public/Images/myphoto.png" alt="My Photo" class="rounded-circle" id="myphoto">
+                </figure>
+            </div>
 
         </section>
-        <hr>
-        <section id="connect">
-            <div class="main_connect_heading">
-                <h2>Connect</h2>
-            </div>
-            <div class="icons_connect">
-            <div class="twitter icon">
-                <a href="https://twitter.com/im_awadh_" target="_blank"><i class="fa-brands fa-twitter"></i>Twitter</a>
-            </div>
-            <div class="linkedin icon">
-                <a href="https://www.linkedin.com/in/imawadh/" target="_blank"><i class="fa-brands fa-linkedin"></i>Linked In</a>
-            </div>  
-            <div class="github icon">
-                <a href="https://github.com/imawadh" target="_blank"><i class="fa-brands fa-github"></i>Github</a>
-            </div>
-            <div class="instagram icon">
-                <a href="https://www.instagram.com/im_awadh_/" target="_blank"><i class="fa-brands fa-instagram"></i>Instagram</a>
-            </div>
-        </div>
+
+
+        <!-- Code Section  -->
+
+
+        <section class="CodeSection  pb-2 pt-2 mb-5" id="Code">
+            <h3 class="text-light text-center">
+                <span class="bi bi-code-slash text-light"></span> My Codes
+                <span class="bi bi-code-slash text-light"></span>
+            </h3>
+            <br>
+            <ul class="list-unstyled">
+                <li ><a href="javascript:void()" class="bi bi-github text-decoration-none text-primary d-block"></a>
+                <span class="text-primary">GitHub</span></li>
+                <li ><a href="javascript:void()" class="bi bi-code text-decoration-none text-light d-block"></a><span class="text-light">LeetCode</span></li>
+                <li ><a href="javascript:void()" class="bi bi-code text-decoration-none text-danger d-block"></a><span class="text-danger">CodeForces</span></li>
+                <li ><a href="javascript:void()" class="bi bi-code text-decoration-none text-success d-block"></a><span class="text-success">CodeChef</span></li>
+                <li ><a href="javascript:void()" class="bi bi-code text-decoration-none text-light d-block"></a><span class="text-white">AtCoder</span></li>
+                <li ><a href="javascript:void()" class="bi bi-code text-decoration-none text-warning d-block"></a><span class="text-warning">GeeksForGeek</span></li>
+            </ul>
+        </section>
+
+
+        <!-- Connect Section  -->
+
+        <section class="bg-black pt-2 pb-1" id="Connect">
+            <h3 class="text-light text-center">
+                <span class="bi bi-chat-right-text"></span> &nbsp; Let's Talk &nbsp; <span class="bi bi-chat-left-text"></span>
+            </h3>
+            <br>
+            <ul class="list-unstyled   ">
+                <li ><a href="javascript:void()" class="bi bi-linkedin text-decoration-none text-primary d-block"></a>
+                <span class="text-primary">LinkedIn</span></li>
+                <li ><a href="javascript:void()" class="bi bi-twitter-x text-decoration-none text-light d-block"></a><span class="text-light">Twiiter</span></li>
+                <li ><a href="javascript:void()" class="bi bi-instagram text-decoration-none text-danger d-block"></a><span class="text-danger">Instagram</span></li>
+                <li ><a href="javascript:void()" class="bi bi-whatsapp text-decoration-none text-success d-block"></a><span class="text-success">WhatsApp</span></li>
+                <li ><a href="javascript:void()" class="bi bi-discord text-decoration-none text-light d-block"></a><span class="text-light">Discord</span></li>
+                <li ><a href="javascript:void()" class="bi bi-telegram text-decoration-none text-warning d-block"></a><span class="text-warning">Telegram</span></li>
+            </ul>
+            
         </section>
 
     </main>
-    <hr>
-
-    <footer>
-        <div class="text_footer"> &copy;copyrights All rights are reverserved </div>
-    </footer>
+    
 </body>
 </html>
