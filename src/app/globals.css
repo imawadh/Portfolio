@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+/* Root variables for colors and fonts */
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+
+  /* Fonts loaded via next/font/google */
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+  --font-alex: var(--font-alex-brush);
+}
+
+/* Dark mode support */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+/* Global body styles */
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans), Arial, Helvetica, sans-serif;
+}
+
+@layer utilities {
+  .font-alex {
+    font-family: var(--font-alex-brush);
+  }
+}
+
+
